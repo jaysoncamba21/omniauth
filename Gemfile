@@ -7,8 +7,11 @@ gem 'rails', '3.2.8'
 
 gem 'pg'
 gem 'devise'
-
-
+gem 'omniauth'
+gem 'omniauth-linkedin'
+gem 'omniauth-facebook'
+gem 'omniauth-twitter'
+gem 'nifty-generators'
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
@@ -37,3 +40,5 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'debugger'
+
+gem "mocha", :group => :test
